@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import "./App.css";
+console.log(unknownVariable);
 
 function Search({ onSearch }) {
   const [value, setValue] = useState("");
